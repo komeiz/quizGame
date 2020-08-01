@@ -127,7 +127,7 @@ document.querySelector('.question-2'),
 document.querySelector('.question-3')];
 
 let nextQ = document.querySelector('.btn');
-let finCon = document.querySelector('.fin-con');
+let finCon = document.querySelector('.startAgain-con');
 finCon.style.display = 'none';
 nextQ.addEventListener('click',nextQuestion);
 

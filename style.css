@@ -59,7 +59,9 @@ cursor: pointer;
 .fin-con{
   text-align: left;
 }
-.fin-btn{
+.startAgain-btn{
+color:black;
+text-decoration: none;
 font-size: 1em;
 background-color:#ffc837;
 border:none;
