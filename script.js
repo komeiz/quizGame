@@ -124,7 +124,7 @@ document.querySelector('.question-3')];
 
 let qs = [document.querySelector('.question-1'),
 document.querySelector('.question-2'),
-xddocument.querySelector('.question-3')];
+document.querySelector('.question-3')];
 
 let nextQ = document.querySelector('.btn');
 nextQ.addEventListener('click',nextQuestion);
