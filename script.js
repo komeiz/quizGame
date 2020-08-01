@@ -124,9 +124,11 @@ document.querySelector('.question-3')];
 
 let qs = [document.querySelector('.question-1'),
 document.querySelector('.question-2'),
-xddocument.querySelector('.question-3')];
+document.querySelector('.question-3')];
 
 let nextQ = document.querySelector('.btn');
+let finCon = document.querySelector('.fin-con');
+finCon.style.display = 'none';
 nextQ.addEventListener('click',nextQuestion);
 
 qs.map((el,index) =>{
@@ -170,12 +172,15 @@ else{
 };
 
 
-
 function nextQuestion(){
   if(!(questCount >= questions.length - 1)){
      questCount++
      questions[questCount-1].style.display = 'none';
     questions[questCount].style.display = 'block';
+    if(questCount === questions.length - 1){
+      nextQ.style.display= 'none';
+      finCon.style.display = 'block';
+    }
   }
   else{
     nextQ.removeEventListener('click',nextQuestion);

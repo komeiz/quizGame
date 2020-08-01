@@ -3,24 +3,38 @@ html,body{
   width:100%;
   margin: 0;
 }
-
+body{
+  background-image:linear-gradient(#aa076b,#61045f);
+}
+h1{
+  margin: 0;
+}
 .topic{
+
+  background-color: white;
   display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
+.quest-tag{
+  background-color:white;
+  padding:15px;
+
+}
+
 .questions{
-  margin:0 auto;
+
+  margin: 100px auto;
   max-width: 720px;
 }
 .answer{
   padding:10px;
   list-style-type: none;
   margin-bottom: 10px;
-    border: 1px solid  rgb(122 37 148);
+    border: 1px solid ;
     border-radius: 30px;
-    background-color: rgb(193 150 204);
+    background-color: rgb(242 170 255);
     cursor: pointer;
 }
 .hoverEffect:hover{
@@ -32,7 +46,7 @@ html,body{
 }
 
 .btn{
-  font-size: 1em;
+font-size: 1em;
 background-color:#ffc837;
 border:none;
 padding:10px;
@@ -42,7 +56,17 @@ cursor: pointer;
 .btn:hover{
   background-color:#ff8008 ;
 }
-
+.fin-con{
+  text-align: left;
+}
+.fin-btn{
+font-size: 1em;
+background-color:#ffc837;
+border:none;
+padding:10px;
+border-radius: 10px;
+cursor: pointer;
+}
 .box{
   margin-bottom:30px;
 }
@@ -67,8 +91,8 @@ margin-bottom: 0;
 }
 .js-desc {
   /* background-image:linear-gradient(#ff8008,#ffc837); */
-  border:1px solid purple;
-    background-image:linear-gradient(#aa076b,#61045f);
+  border:2px solid purple;
+
     border-radius: 20px 0 20px 0;
   width:70%;
   padding:20px;
