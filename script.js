@@ -32,7 +32,7 @@
 
   function displayRes(){
     questions[questions.length-1].style.display = 'none';
-    resultpage.textContent = `your result is ${score}/${questions.length}`
+    resultpage.textContent = `your score is ${score}/${questions.length}`
     displayResults.style.display = 'block';
     startAginCon.style.display = 'block';
     checkResults.style.display = 'none';
